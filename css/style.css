@@ -356,13 +356,3 @@ body {
   animation: l3 1s infinite linear;
 }
 @keyframes l3 {to{transform: rotate(1turn)}}
-
-section {
-  opacity: 0;  
-  transition: opacity 1s ease, transform 1s ease;
-}
-
-section.revealed {
-  opacity: 1;
-  transform: translateY(0);
-}
