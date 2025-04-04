@@ -7,4 +7,5 @@ navToggler.addEventListener("click", ()=>{
 
 window.addEventListener('load', function () {
     document.querySelector('.pre-loader').className += ' hidden';
+    window.scrollTo(0,0);
 });
