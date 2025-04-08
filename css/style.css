@@ -148,6 +148,18 @@ body {
 
 /* Hero */
 
+.hero{
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.80),
+      rgba(0, 0, 0, 0.80),
+      rgba(0, 0, 0, 0.80)
+    ),
+    url(../images/3409297.jpg);
+}
+
 .heroButtons a {
   text-align: center;
   align-items: center;
@@ -399,5 +411,29 @@ body {
 
 .loader-img{
   width: 100px; border-radius: 50%; position: absolute; bottom: 0;
+}
+
+.projects{
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.90),
+      rgba(0, 0, 0, 0.80),
+      rgba(0, 0, 0, 0.90)
+    ),
+    url(../images/sl_031420_28950_10.jpg);
+}
+
+.contact{
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.90),
+      rgba(0, 0, 0, 0.90),
+      rgba(0, 0, 0, 0.90)
+    ),
+    url(../images/v617batch2-kul-05-technology.jpg);
 }
 
